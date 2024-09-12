@@ -1,0 +1,21 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+.box>.done{        /*or .box>p*/      
+    color: firebrick;
+}
+/*parent>child (only 1st gen child allowed) like here 2 1st gen child: p,ul*/
+
+.box .list{      /*or .box li*/
+    color: blue;
+}
+/*ascendant*space*descendant it is not restricted to 1st gen child greatgrand child can also be considered*/
+li.done{
+    color: seagreen;
+}
+/*chaining is applying 2 or more classes,ids,elements etc(without any space inbetwen) so as to be really specific like here there are more list also more class named done*/ 
+ul p.done{   /*or here ul>p.done since ul is also a parent here*/
+     font-size: 0.5rem;
+}
+/* anscendant descendant(with chaining)*/

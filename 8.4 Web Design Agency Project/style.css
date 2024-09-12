@@ -1,0 +1,193 @@
+/* body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display:flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+.tile-image{
+  height: 10rem;
+  float: left;
+  padding-right: 1rem;
+  
+}
+.card-text{
+  margin-right: 2rem;
+}
+.left_card,.right_card{
+  width:49%;
+  display: inline-block;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+
+@media (max-width:320px){
+  h1{
+    font-size: 7rem;
+    width: 500%;
+    text-align: center;
+  }
+  .logo{
+    height: 4rem;
+  }
+  .left_card,.right_card{
+
+    display: block;
+  }
+  h2{
+    font-size: 4rem;
+  
+    width: 1000%;
+    text-align: center;
+  }
+  .tile-image{
+    height: 40rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  p{
+    width:max-content;
+    width: 1000%;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media (min-width:321px) and (max-width:375px){
+  .left_card,.right_card{
+  
+    display: block;
+  }
+  .logo{
+    height: 4rem;
+  }
+  h1{
+    font-size: 5.5rem;
+    width: 500%;
+    text-align: center;
+  }
+  .tile-image{
+    height:40rem;
+    width: 80rem;
+  }
+  h2{
+    font-size: 3.5rem;
+  }
+  .footer>p{
+    text-align: center;
+  }
+  p{
+    width: 1000%;
+    font-size: 2.9rem;
+  }
+  
+}
+
+@media (min-width:375px) and (max-width:722px){
+  .left_card,.right_card{
+    
+    display: block;
+  }
+  .logo{
+    height: 4rem;
+  }
+  h1{
+    font-size: 6rem;
+    width: 500%;
+    text-align: center;
+  }
+  .tile-image{
+    height:45rem;
+    width: 90rem;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  p{
+    width:max-content;
+    width: 1000%;
+    font-size: 3rem;
+  }
+  footer{
+    text-align: center;
+  }
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
